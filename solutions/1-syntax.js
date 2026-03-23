@@ -1,3 +1,6 @@
 // BEGIN (write your solution here)
-testcommit - 1;
+export const getWeekends = (format = 'long') => {
+  return format === 'short' ? ['sat', 'sun'] : ['saturday', 'sunday'];
+};
+
 // END
